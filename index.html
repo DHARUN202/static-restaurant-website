@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My-restaurant</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="navbar">
+    <nav>
+      <h1>Dharun's restaurant</h1>
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Menu</li>
+        <li>Orders</li>
+      </ul>
+    </nav>
+  </div>
+  <div class="img">
+    <img src="imgs/img1.jpg" alt="food">
+  </div>
+  <div class="about">
+    <h1><span style="color: red;">About Us</span></h1>
+    <p style="margin-top: 10px;">Dharun's Restaurant offers a culinary oasis, where flavors dance and aromas enchant. Nestled in the heart of the city, it's a gastronomic haven that beckons food enthusiasts. With a menu that marries tradition and innovation, every dish is a masterpiece. Dharun's restaurant, where passion meets the plate, promising a memorable dining experience.</p> 
+  </div>
+
+  <div class="Menu">
+    <h2>Our Menu</h2>
+    <p class="menu-description">We only have three authentic finger-licking foods</p>
+
+    <div class="menu-items">
+      <div class="a">
+        <img id="i1" src="./imgs/burger with fries.jpg" alt="burger">
+        <p>Ham burger with crispy fries</p>
+      </div>
+      <div class="b">
+        <img id="i2" src="./imgs/pasta.jpg" alt="pasta">
+        <p>Yummy pasta</p>
+      </div>
+      <div class="c">
+      <img id="i3" src="./imgs/friedchicken.jpg" alt="friedchicken">
+      <p>Crispy fried-chicken</p>
+    </div>
+  </div>
+  <div class="order">
+    <h2>Order us</h2> 
+    <form action="mailto:your_email@example.com" method="post" enctype="text/plain">
+      <label class="label" for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label class="label" for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label class="label" for="phone">Mobile:</label>
+      <input type="tel" id="phone" name="phone" required><br><br>
+
+      <label class="label" for="message"></label><br>
+      <textarea id="message" placeholder="type your order here" rows="4" cols="50" required></textarea><br><br>
+
+      <input id="submit-button" type="submit" value="Submit">
+  </form>
+  </div>
+
+
+    <footer>
+      <p>&copy; 2023 Dharun's Restaurant | All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
